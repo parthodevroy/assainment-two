@@ -145,16 +145,16 @@
     margin: 0% auto;
     margin-bottom: 10px;
     color: white;
-    background-image: url(B12A02-Responsive-Flowers/assets/deal-zabo.png);
+    background-image: url(../B12A02-Responsive-Flowers/assets/deal-zabo.png);
 }
 .mini-one{
-    background-image: url(B12A02-Responsive-Flowers/assets/deal-ana.png);
+    background-image: url(../B12A02-Responsive-Flowers/assets/deal-ana.png);
     border: 2px solid tomato;
     padding: 10px;
     margin-bottom: 10px;
 }
 .mini-two{
-    background-image: url(B12A02-Responsive-Flowers/assets/deal-bloom.png);
+    background-image: url(../B12A02-Responsive-Flowers/assets/deal-bloom.png);
     border: 2px solid tomato;
     margin-bottom: 10px;
 }
@@ -164,7 +164,7 @@
 }
 /* card three */
 .card-three{
-    background-image: url(B12A02-Responsive-Flowers/assets/news-letter-bg.png);
+    background-image: url(../B12A02-Responsive-Flowers/assets/news-letter-bg.png);
     display: flex;
     align-items: center;
     justify-content: center;
