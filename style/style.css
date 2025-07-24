@@ -14,6 +14,9 @@
     list-style: none;
     text-decoration: none;
 }
+.btn{
+    background-color: coral;
+}
 /* flower title */
 .flower-title{
     display: flex;
@@ -159,6 +162,23 @@
     text-align: center;
     padding-top: 70px;
 }
+/* card three */
+.card-three{
+    background-image: url(/B12A02-Responsive-Flowers/assets/news-letter-bg.png);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 200px 00px;
+    margin-bottom: 60px;
+}
+.card-manner input{
+    width: 500px;
+    font-size: 20px;
+}
+.card-manner h2{
+    text-align: center;
+    color: antiquewhite;
+}
 /* responsive desine */
 @media screen and (max-width:576px) {
     .navigation ul .home    {
@@ -211,4 +231,15 @@ f
 .large-card{
     width: 500px;
 }
+.card-three{
+    align-items: center;
+    justify-content: center;
+    width: 600px;
+    border: 0;
+    padding: 50 30;
+}
+card-manner input{
+    width: 20px;
+    font-size: 20px;
+
  }
