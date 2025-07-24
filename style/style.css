@@ -1,0 +1,157 @@
+/* navigation */
+.navigation{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.nav-right ul{
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    
+}
+.nav-right ul a{
+    list-style: none;
+    text-decoration: none;
+}
+/* flower title */
+.flower-title{
+    display: flex;
+    max-width: 1280px;
+    margin: 0% auto;
+    padding: 60px 40px;
+}
+.flower-left{
+    padding-top: 30px;
+
+}
+.flower-left .plant{
+    font-size: 60px;
+}
+.flower-left .indulge{
+    font-size: 30px;
+}
+.fresh{
+    color: chocolate;
+}
+/* our plants */
+.plants{
+    text-align: center;
+}
+.plants h2{
+    font-size: 50px;
+}
+.plants p{
+    font-size: 30px;
+}
+/* card section */
+.card-parent .card-child{
+    max-width: 280px;
+    max-height: 500px;
+    border: 2px solid skyblue;
+    margin: 0% auto;
+}
+.card-parent .card-parent img{
+    max-width: 100%;
+}
+.card-parent{
+    max-width: 1200px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin: 0 auto;
+    gap: 20px;
+    padding: 20px;
+
+}
+.lili,.lily {
+    text-align: center;
+}
+.lily{
+    background-color: brown;
+}
+.lily button{
+    display: flex;
+    justify-content: center;
+}
+/* man flower part */
+.man-flower{
+    display: flex;
+    max-width: 1200px;
+    margin: 0% auto;
+    padding-top: 100px;
+}
+.man-right ul li{
+    font-size: 20px;
+    padding: 20px;
+}
+.man-right ul{
+    padding-left: 20px;
+}
+.man-right h2 {
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+.man-left img{
+    width: 10;
+    max-width: 600px;
+    border-radius: 10px;
+
+}
+.man-left{
+    position: relative;
+}
+.man-right{
+    flex: 1;
+    min-width: 280px;
+    padding-left: 100px;
+}
+.main-img{
+    width: 500px;
+    height: auto;
+}
+.badge-img{
+    position: absolute;
+    top: -110px;
+    left: 100%;
+    transform: translateX(-50%);
+    width: 200px;
+}
+/* responsive desine */
+@media screen and (max-width:576px) {
+    .navigation ul .home    {
+display: none; 
+}
+.navigation ul .cart{
+padding-left: 300px;
+}
+.flower-title{
+display: grid
+}
+.flower-title{
+grid-template-columns: repeat(1);
+}
+.card-parent{
+max-width: 1200px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin: auto;
+    gap: o;
+    padding: 0;
+}
+.plants{
+    padding-left: 120px;
+}
+.man-flower{
+flex-direction: column;
+text-align: center;
+justify-content: center;
+f
+}
+ .main-img{
+    width: 100%;
+    padding-left: 50px;
+ }  
+.badge-img{
+    display: none;
+}
+ }
